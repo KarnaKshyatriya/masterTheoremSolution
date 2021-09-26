@@ -86,7 +86,7 @@ public class Stockers {
 		bd=new BoolDecreaseFalse(stockPrice);
 		break;
 
-		case 5:sr=new SearchRecord(al);
+		case 5:sr=new SearchRecord(al,numbers);
 		break;
 
 		default: System.out.println("You Have entered an Invalid option");
